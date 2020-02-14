@@ -16,7 +16,7 @@
 import React, { useState } from 'react';
 import './customhooks.css';
 import Boton from '../img/boton.png'
-import Boo from '../img/boo.jpg'
+import Boo from '../img/boo.png'
 import CustomBolean from '../custombolean.js'
 import useBolean from '../custombolean.js';
 
@@ -25,7 +25,7 @@ const CustomHooks = () => {
     const [value, toggleValue] = useBolean()
     return (
         <div className="container">
-            <div>Tocalo y sorprendete</div>
+            <div>Tocame</div>
             <img src={Boton} onClick={toggleValue} className="img-2"></img>
             {
                 value ?
