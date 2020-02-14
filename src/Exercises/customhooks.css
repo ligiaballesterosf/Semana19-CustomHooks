@@ -1,0 +1,15 @@
+.container {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.container .img-1 {
+    height: 200px;
+    width : 200px;
+}
+
+.container .img-2 {
+    height: 100px;
+    width : 100px;
+}
